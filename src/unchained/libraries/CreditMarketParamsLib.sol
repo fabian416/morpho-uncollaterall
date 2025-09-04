@@ -8,6 +8,7 @@ import { Id, CreditMarketParams } from "../interfaces/IUnchained.sol";
  * @author Your Name
  * @notice Library to compute the unique ID of a credit market.
  */
+
 library CreditMarketParamsLib {
     /// @notice The length of the data used to compute the id of a market.
     /// @dev The length is 3 * 32 because `CreditMarketParams` has 3 variables of 32 bytes each.
